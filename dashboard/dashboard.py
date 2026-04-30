@@ -17,8 +17,8 @@ st.markdown("Analisis Pola Peminjaman Sepeda Tahun 2011-2012")
 
 #load data
 def load_data():
-    day_df = pd.read_csv("day_clear.csv")
-    hour_df = pd.read_csv("hour_clear.csv")
+    day_df = pd.read_csv("dashboard/day_clear.csv")
+    hour_df = pd.read_csv("dashboard/hour_clear.csv")
     return day_df, hour_df
 
 day_df, hour_df = load_data()
